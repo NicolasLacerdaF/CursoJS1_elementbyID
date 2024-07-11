@@ -17,7 +17,14 @@ a
 comment
  */
 
+let x = 100;
 
+console.log(x);
+
+
+age = 25;
+
+console.log(age);
 
 
 
