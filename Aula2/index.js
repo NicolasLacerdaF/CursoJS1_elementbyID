@@ -1,30 +1,42 @@
-//console.log("Hello");
-//console.log("I like pizza!");
+//arithmetic operators = operands (values, variables, etc.)
+//                       operators (+ - * /)
+//                       ex. 11 = x + 5;
 
 
-//window.alert('This is an alert!');
-//window.alert('I like pizza!');
+let students = 31;
 
-//this is a comment// 
+//students = students + 1;
+//students = students - 1;
+//students = students * 2;
+//students = students / 2;
+//students =  students ** 3;
+//let extraStudents = students % 3;
 
-document.getElementById("myH1").textContent = `Hello`;
-document.getElementById("myP").textContent = `I like pizza!`;
-
-/*
- This 
-is 
-a 
-comment
- */
-
-let x = 100;
-
-console.log(x);
+//students += 1;
+//students =- 1;
+//students *= 2;
+//students /= 2;
+//students **=2;
+//students %= 2;
 
 
-age = 25;
+//students++;
+//students--;
 
-console.log(age);
+
+/* 
+    operator procedence
+    1.parenthesis ()
+    2.exponents
+    3.multiplication & division & modulo
+    4.addition & subtraction
+*/
+
+let result = 1 + 2 * 3 + 4 ** 2;
+
+
+
+console.log(students)
 
 
 
