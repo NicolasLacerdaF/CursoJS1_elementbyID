@@ -69,35 +69,32 @@ mySubmit.onclick = function(){
 
     age = myText.value;
     age = Number(age);
+    console.log(age);
+    if (isNaN(age)){
+        alert("Your age must be a NUMBER", age)
+        return
+    } 
     resultElement.textContent = ``
-
     if( age >= 100){
         //console.log("You are TOO OLD to enter this site");
         resultElement.textContent = `You are TOO OLD to enter this site`;
-    }
-    else if(age == 0){
+    } else if(age == 0){
         //console.log("You cant't enter. You were just born."); 
-        resultElement.textContent = `You cant't enter. You were just born.`;
-    }
-    
-    else if(age >= 18){
-       //console.log("You are old enough to enter this site"); 
+        resultElement.textContent = `You can't enter. You were just born.`;
+    } else if(age >= 18){
+        //console.log("You are old enough to enter this site"); 
         resultElement.textContent = `You are old enough to enter this site`;
-    }
-    else if( age < 0){
+    } else if( age < 0){
         //console.log("Your age can't be below 0");
         resultElement.textContent = `Your age can't be below 0`;
-    }
-
-    else if(age < 18){
+    } else if(age < 18){
         //console.log("You must be 18+ to enter this site");
         resultElement.textContent = `You must be 18+ to enter this site`;
     }
+    
+    
 
-    else{
-        //console.log("Your age must be a NUMBER");
-        resultElement.textContent = `Your age must be a NUMBER`;
-    }
+    
 
 }
 
