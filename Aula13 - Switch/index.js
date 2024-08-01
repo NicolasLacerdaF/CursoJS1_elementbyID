@@ -1,28 +1,28 @@
 // SWITCH = pode ser uma forma eficiênte para muitas else e if's
 
-let day = 1;
+let day = 5;
 
 switch(day){
     case 1:
-        console.log("It's Monday");
+        console.log("It's Sunday");
         break;
     case 2:
-        console.log("It's Tuesday");
+        console.log("It's Monday");
         break;
     case 3:
-        console.log("It's Wednesday");
+        console.log("It's Tuesday");
         break;
     case 4:
-        console.log("It's Thursday");
+        console.log("It's Wednesday");
         break;
     case 5:
-        console.log("It's Friday");
+        console.log("It's Thursday");
         break;
     case 6:
-        console.log("It's Saturday");
+        console.log("It's Friday");
         break;
     case 7:
-        console.log("It's Sunday");
+        console.log("It's Saturday");
         break;
     
     default:
