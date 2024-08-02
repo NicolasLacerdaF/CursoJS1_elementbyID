@@ -12,9 +12,6 @@ console.log(username);
 console.log(extension);
 
 
-
-
-
 //let firstName = fullName.slice(0, 7);
 //let lastName = fullName.slice(8, 15);
 
@@ -32,7 +29,3 @@ let lastName = fullName.slice(fullName.lastIndexOf(" ") + 1);// Extrair o nome d
 console.log(firstName);
 console.log(middleName);
 console.log(lastName);**********/
-
-
-
-
