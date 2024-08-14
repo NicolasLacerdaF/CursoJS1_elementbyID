@@ -8,3 +8,7 @@ for(let i = 10; i > 0; i--){
 //for(let i = 10; i > 0; i-=2){
  //   console.log(i);
 //}
+
+
+//continue == pula 1 número
+// break == para no número referido
